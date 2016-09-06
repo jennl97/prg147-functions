@@ -1,0 +1,38 @@
+body{
+    background-color: bisque;
+}
+h1, h2{
+    text-align: center;
+    font-family: sans-serif;
+    color: indigo;
+}
+
+.container{
+    background-color: white;
+    overflow: auto;
+    }
+
+img{
+    padding-bottom: 25px;
+}
+
+.image_left{
+    padding-left: 15px;
+    float: left;
+    align-content: center;
+    clear: both;
+}
+.image_right{
+    min-height: 400px;
+    float: right;
+    text-align: center;
+}
+
+.image_left img, .image_right img{
+    margin: 10px auto;
+}
+
+#large{
+    width: 65%;
+    }
+
